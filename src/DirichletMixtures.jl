@@ -1,5 +1,12 @@
 module DirichletMixtures
 
-# Write your package code here.
+
+    using Distributions, StatsFuns, Printf
+
+    include("fitdirichlet.jl")
+    include("fitdirichletmixture.jl")
+
+    export fitdirichlet, fitdirichletmixture
+
 
 end
